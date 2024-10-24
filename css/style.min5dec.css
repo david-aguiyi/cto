@@ -38,7 +38,7 @@ html {
 }
 
 body {
-    color: #000;
+    color: #ffffff;
     line-height: 1;
     font-family: CCMaladroitW00;
     font-size: 1.5rem;
@@ -366,7 +366,7 @@ h6 {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #fc6801;
+    background-color: #223434;
     border-bottom: 0.375rem solid #000;
     padding: 0.25rem 0;
     -webkit-transform: translateY(-100%);
@@ -379,7 +379,7 @@ h6 {
 }
 
 .header._header-scroll {
-    background-color: #fc6801;
+    background-color: #223434;
 }
 
 .header__container {
@@ -459,7 +459,7 @@ h6 {
 
 .footer {
     border-top: 0.5rem solid #000;
-    background-color: #fc6801;
+    background-color: #223434;
     padding: 2.5rem 0;
 }
 
@@ -574,7 +574,7 @@ h6 {
 .page__grey-line {
     position: relative;
     width: 100%;
-    background-color: #fc680185;
+    background-color: #223434;
     border-top: 0.375rem solid #000;
     border-bottom: 0.375rem solid #000;
 }
@@ -864,7 +864,7 @@ h6 {
     display: inline-block;
     -webkit-transform-origin: left;
     transform-origin: left;
-    color: #000;
+    color: #000000;
     font-family: "Naughty Squirrel Demo";
     font-weight: 900;
     line-height: normal;
@@ -944,12 +944,8 @@ h6 {
     background-color: #fff;
 }
 
-.hero__social-item:nth-child(3) img {
-    width: calc(100% + 0.5rem);
-    transition: scale 0.3s ease 0s;
-}
 
-.hero__social-item:nth-child(4) {
+.hero__social-item:nth-child(3) {
     background-color: #000;
 }
 
@@ -972,7 +968,7 @@ h6 {
 }
 
 .about {
-    background-color: #fc680121;
+    background-color: #6B857C;
     border-bottom: 0.375rem solid #000;
 }
 
@@ -987,6 +983,7 @@ h6 {
 
 .about__image img {
     width: 100%;
+    border-radius: 56px;
 }
 
 .about__content {
@@ -1018,7 +1015,7 @@ h6 {
 .hello-about__body {
     border-radius: 3.375rem;
     border: 0.375rem solid #000;
-    background: #ee2f2f;
+    background: #223434;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1200,7 +1197,7 @@ h6 {
 }
 
 .how__header {
-    background-color: #ff4d44;
+    background-color: #223434;
     border-bottom: 0.375rem solid #000;
 }
 
@@ -1216,7 +1213,7 @@ h6 {
 .how__bottom {
     position: relative;
     height: 13.125rem;
-    background-color: #ff4d44;
+    background-color: #223434;
     border-top: 0.375rem solid #000;
     border-bottom: 0.375rem solid #000;
     background-image: url(../img/how/bottom-bg.png);
@@ -1242,6 +1239,7 @@ h6 {
 
 .body-box__item._watcher-view p:nth-child(1) {
     -webkit-animation: opacity 0.45s ease 0.2s forwards;
+    color: #223434;
     animation: opacity 0.45s ease 0.2s forwards;
 }
 
@@ -1343,7 +1341,7 @@ h6 {
 
 .tokenomics {
     position: relative;
-    background-color: #ff4d44;
+    background-color: #223434;
 }
 
 .tokenomics__title {
@@ -1671,7 +1669,7 @@ h6 {
         visibility: hidden;
     }
     .join {
-        background-color: #fc680121;
+        background-color: #9E9E9E;
         background-position: 50% 20%;
         background-size: cover;
         background-repeat: no-repeat;
@@ -1751,6 +1749,7 @@ h6 {
     }
     .hero__text {
         font-size: 1.5rem;
+        color: black;
     }
     .hero__actions {
         margin-top: 3.375rem;
@@ -2129,10 +2128,10 @@ h6 {
         transform: rotate(45deg);
     }
     .header {
-        background-color: #fc6801;
+        background-color: #223434;
     }
     .header._header-scroll {
-        background-color: #fc6801;
+        background-color: #223434;
     }
     .header__actions {
         flex-direction: column-reverse;
@@ -2146,7 +2145,7 @@ h6 {
         display: none;
     }
     .hero {
-        background-color: #fc680121;
+        background-color: #6B857C;
     }
     .hero__title {
         text-align: center;
@@ -2192,7 +2191,7 @@ h6 {
         row-gap: 1.875rem;
     }
     .join {
-        background-color: #fc680121;
+        background-color: #6B857C;
     }
     .join__title {
         justify-content: center;
